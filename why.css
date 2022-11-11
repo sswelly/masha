@@ -1,0 +1,22 @@
+body{
+    background-image: url(xvT.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    background: linear-gradient(to left, #f953c6, #b91d73 ,#f953c6);
+    text-decoration: none;
+    padding: 20px 70px;
+    background-size: 200%;
+    transition: .3s;
+}
+.btn:hover{
+    background-position: right;
+}
